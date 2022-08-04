@@ -1,0 +1,112 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.navbar-brand {
+  font-size: 44px;
+  font-family: "montserrat";
+}
+
+.navbar-nav {
+  font-size: 26px;
+  font-family: "montserrat";
+}
+
+.btn-register {
+  font-size: 22px;
+  font-family: "montserrat";
+  background-color: #0077b6;
+}
+
+header h1 {
+  font-family: "montserrat";
+  font-size: 76px;
+  font-weight: bold;
+}
+
+header p {
+  font-family: "montserrat";
+  font-size: 28px;
+}
+
+header .btn-detail {
+  font-size: 20px;
+  font-family: "montserrat";
+  background-color: #0077b6 !important;
+}
+
+#product .col-product {
+  padding-top: 116px !important;
+}
+
+#product .col-detail {
+  
+}
+
+#product .detail {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+#product h3{
+  font-family: 'montserrat';
+  font-size: 62px;
+  font-weight: bold;
+}
+
+#product .p-desc{
+  font-family: 'montserrat';
+  font-size: 26px;
+}
+
+#product .p-detail{
+  font-family: 'montserrat';
+  font-size: 18px;
+}
+
+footer .row-copyright{
+  background-color: #0077b6;
+}
+
+footer .p-brand{
+  font-family: 'montserrat';
+  font-size: 34px;
+}
+
+footer .p-category{
+  font-family: 'montserrat';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer .p-category-desc{
+  font-family: 'montserrat';
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  header h1 {
+    font-family: "montserrat";
+    font-size: 66px;
+    font-weight: bold;
+  }
+
+  header p {
+    font-family: "montserrat";
+    font-size: 18px;
+  }
+}
